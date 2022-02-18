@@ -3,7 +3,7 @@ from colorama import Fore
 
 
 def view_user(user):
-    print(f"{Fore.GREEN}{user.username :^30}")
+    print(f"{Fore.YELLOW}{user.username :^30}")
     print(f"{Fore.MAGENTA}ID\t\t{Fore.WHITE}{user.id}")
     print(f"{Fore.MAGENTA}Author\t\t{Fore.CYAN}{user.name}")
     print(
